@@ -11,6 +11,7 @@ def downloadYouTube(videourl, path):
     yt.download(path)
 
 if __name__ == "__main__":
-    url = "https://www.youtube.com/watch?v=r3PqnITCfY0"
+    url = input("enter the link: ")
     save_path = "downloads"
+    print("file is being downloaded to downloads directory")
     downloadYouTube(url,save_path)

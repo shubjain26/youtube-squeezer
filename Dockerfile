@@ -10,4 +10,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-CMD [ "/bin/bash" ]
+CMD [ "python3 youtube-squeezer.py" ]
